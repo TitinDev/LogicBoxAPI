@@ -6,7 +6,7 @@
 
 	function orderbox_api_client($userid, $password)
 	{
-		$auth = array('auth-userid'=>$userid, 'auth-password'=>$password);
+		$auth = array('auth-userid'=>$userid, 'api-key'=>$password);
 
 		return function ($method, $path, $params=array(), &$response_headers=array()) use ($auth)
 		{
