@@ -12,7 +12,7 @@ PHP library for the ResellerClub and LogicBoxes HTTP API.
 ## Getting Started
 
 ### Download
-Download the [latest version of orderbox.php](https://github.com/sandeepshetty/orderbox.php/archives/master):
+Download the [latest version of orderbox.php](https://github.com/TitinDev/orderbox.php/archives/master):
 
 ```shell
 $ curl -L http://github.com/sandeepshetty/orderbox.php/tarball/master | tar xvz
@@ -36,7 +36,7 @@ Making API calls:
 ```php
 <?php
 
-	$orderbox = orderbox_api_client($userid, $password);
+	$orderbox = orderbox_api_client($userid, $key);
 
 	try
 	{
