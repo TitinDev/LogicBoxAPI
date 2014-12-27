@@ -1,4 +1,4 @@
-# orderbox.php
+# CURL Logicboxes HTTP API 
 
 PHP library for the ResellerClub and LogicBoxes HTTP API.
 
@@ -15,8 +15,7 @@ PHP library for the ResellerClub and LogicBoxes HTTP API.
 Download the [latest version of orderbox.php](https://github.com/TitinDev/orderbox.php/archives/master):
 
 ```shell
-$ curl -L http://github.com/sandeepshetty/orderbox.php/tarball/master | tar xvz
-$ mv sandeepshetty-orderbox.php-* orderbox.php
+$ curl -L http://github.com/titindev/orderbox.php/tarball/master | tar xvz
 ```
 
 ### Require
